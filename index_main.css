@@ -7,7 +7,7 @@ body {
 
 #section1{
     display:flex;
-    justify-content: space-between;
+   
     
 }
 
@@ -17,8 +17,9 @@ nav,#section1{
 }
 
 #s1right{
-
-    width: 380px;
+    position: relative;
+    overflow: hidden;
+    width: 560px;
     height: 476px;
     background-color: #012435;
 }
@@ -89,3 +90,20 @@ border-left: 2px Solid rgb(231, 230, 230);
     line-height: 5px;
     padding-left: 18px;
 }
+
+
+#s1left{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+  .latestVideoEmbed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 95%;
+    height: 95%;
+  }
