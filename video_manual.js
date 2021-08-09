@@ -6,7 +6,7 @@ function loadVideo(iframe) {
       console.log(videoNumber);
       var link = data.items[videoNumber].link;
       id = link.substr(link.indexOf("=") + 1);
-      iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=0&showinfo=0&autoplay=1");
+      iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=1&showinfo=0&autoplay=1");
     }
   );
 }

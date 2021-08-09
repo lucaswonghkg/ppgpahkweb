@@ -34,12 +34,22 @@ nav {
    height: 80px;
 }
 
-#nav_content{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+
+#nav_content,#section1,#section2{
+  position: relative;
+  margin-right: auto; 
+  margin-left:  auto; 
+  max-width: 1200px; 
 }
 
+#nav_content,#section1{
+  display: flex;
+  justify-content: space-between;
+}
+
+#section2{
+  padding-top: 20px;
+}
 
 
 #navLeft img{
@@ -107,3 +117,34 @@ border-left: 2px Solid rgb(231, 230, 230);
     width: 98%;
     height: 100%;
   }
+
+.title_label{
+
+width:200px;
+height: 100px;
+background-color: blue;
+} 
+
+
+.square {
+  height: 50px;
+  width: 180px;
+  background-color: #555;
+margin-bottom: 0;
+}
+
+hr.solid {
+  margin-top: 0;
+  border-top: 3px solid #bbb;
+}
+
+.squareTag{
+position: relative;
+  color: white;
+  display:block;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 3%;
+
+
+}
