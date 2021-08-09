@@ -10,7 +10,11 @@
 
 //https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=42f8de8c0055ee7b8d1e8bd680a423e2&user_id=193645963%40N04&in_gallery=true&format=json&nojsoncallback=1&auth_token=72157719700381185-f8ae08dfe0798fed&api_sig=00a5c28331ed02a9a5a847ea267001ca
 
-const api_url = 'https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=e38868c7d215e0716e04dc466877e323&user_id=193645963%40N04&in_gallery=true&format=json&nojsoncallback=1';
+const api_url = 'https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=e38868c7d215e0716e04dc466877e323&user_id=193645963%40N04&format=json&nojsoncallback=1';
+
+
+
+
 
 // let server ;
 // let id;
