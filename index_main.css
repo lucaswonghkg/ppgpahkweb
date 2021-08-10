@@ -106,7 +106,7 @@ border-left: 2px Solid rgb(231, 230, 230);
     height: 80px;
   }
 
-#s1right h4,h3,img{
+#s1right h4,h3{
     color:white;
     line-height: 5px;
     padding-left: 18px;
@@ -163,4 +163,8 @@ position: relative;
   padding-top: 3%;
 
 
+}
+h5{
+  font-size: 20px;
+  font-weight: bold;
 }

@@ -121,13 +121,18 @@
      right:0;
  }
 
-.solidA{
+ .blogimgA{
     position:relative;
-    top:50px;   
+    padding-right: 200px;
+
+ }
+
+.solidA{
+    position:relative;  
      border-top: 1px solid rgb(207, 206, 206)
 }
 
 .solidB{
     position:relative;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
