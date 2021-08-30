@@ -15,7 +15,7 @@ var settings = {
 
     for(let i = 0 ; i < objlength ; i++){
         const { id, title, description} = response.data[i];
-        picurl = 'https://i.imgur.com/' +id+ '.jpg';
+        picurl = 'https://i.imgur.com//' +id+ '.jpg';
         console.log(picurl)
 
 //https
