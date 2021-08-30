@@ -18,7 +18,7 @@ var settings = {
         picurl = 'https://i.imgur.com/' +id+ '.jpg';
         console.log(picurl)
 
-
+//https
         if(description == "report_ml"){
             document.getElementById('manual1').innerHTML += "<img src=" +picurl + ">" ;
          }
